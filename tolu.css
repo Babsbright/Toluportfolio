@@ -1,0 +1,748 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+
+}
+
+body{
+    font-family: "poppins", sans-serif;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   overflow-x: hidden;
+    }
+  
+/*nav*/
+
+    #logo{
+        list-style: none;
+        color: #0fc4e4;
+        display: flex;
+        justify-content: center;
+        font-family: 'mr dafoe', cursive;
+      
+        
+    }
+    #logo h1{
+        font-size: 25px;
+        margin-top: 10px;
+    
+    }
+
+    .nav-links{
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      flex-direction: row;
+      font-family: 'poppins', cursive;
+      cursor:pointer;
+      margin-top: 10px;
+    }
+    
+.nav-links a {
+  text-decoration: none;
+  font-size: 15px;
+  margin: 15px;
+  color: white;
+  
+}
+
+/*END OF NAV*/
+
+/*header*/
+header{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.856), rgb(0, 0, 0)),
+    url("images/working-girl.png") no-repeat;
+    background-size:contain;
+    height: 680px;
+    color: white;
+
+    
+}
+
+.hero-text{
+    font-size: 19px;
+    color: white;
+    position:absolute;
+     left: 5%;
+     top: 50%;
+     font-family: 'poppins', sans-serif;
+
+    
+}
+
+.hero-text h1{
+    font-size: 30px;
+  line-height: 40px;
+  font-family: 'lobster two', cursive;
+  color: #f1c111;
+  
+    
+}
+.hero-description{
+    font-size: 15px;
+    padding: 0px;
+    line-height: 25px;
+    margin-top: 30px;
+    font-family: 'poppins', sans-serif;
+
+}
+.hero .btn{
+outline: none;
+border: none;
+display: flex;
+justify-content: inherit;
+margin-top: 35px;
+
+}
+.hero .button{
+        background: #f1c111;
+        padding: 10px;
+        font-size: 15px;
+        height: 40px;
+        color: white;
+        width: 150px;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+
+/*END OF HEADER*/
+
+/*about*/
+#about{
+padding: 20px;
+font-family: 'poppins', sans-serif;
+
+   
+}
+#about h2{
+    color: #f1c111;
+    padding: 10px;
+    font-family: 'barlow', cursive;
+    font-size: 20px;
+}
+
+.tolulope{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  
+}
+
+
+.tolulope img{
+    max-width:100%;
+}
+
+.tech{
+    padding: 20px;
+    list-style:square;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    font-weight: 600;
+    list-style: square;
+   
+}
+.tech li{
+    
+    color: #0c8195;;
+}
+.porttech{
+    padding: 20px;
+    list-style:none;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+   
+}
+.porttech li{
+    color: #0c8195;;
+    font-size: 15px;
+}
+
+/*END OF ABOUT*/
+
+/*portfolio*/
+#portfolio{
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'poppins', sans-serif;
+    
+    
+}
+#One,#two,#three, #four{
+direction: flex;
+flex-direction: column;
+ box-shadow: 4px 8px 16px 0px black;
+ height:380px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-top: 50px;
+ border-radius: 15px;
+ 
+
+}
+.projImage{
+    float: right;
+}
+.projTitle{
+    font-size: 25px!important;
+    color: #0c8195;;
+    text-align: center;
+    font-family: 'barlow', cursive;
+    padding: 20px;
+}
+.projName{
+    font-size: 15px!important;
+    text-transform: uppercase;
+    padding: 20px 20px 20px 20px;
+    color: #0c8195;;
+    
+}
+.projDetails{
+    font-size: 15px;
+    margin-top: 20px;
+    margin: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+#portfolio .button{
+    display: flex;
+    justify-content: center;
+    background: #f1c111;;
+    padding: 18px;
+    outline: none!important;
+    font-size: 13px;
+    height: 40px;
+    color: white;
+    width: 180px;
+    border: none;
+    margin: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    color: #0c8195!important;
+    font-size: 13px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*END OF PORTFOLIO*/
+
+/*contact*/
+
+footer{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#contact h1{
+    position: relative;
+     text-align: center;
+    font-weight: 200!important;
+    font-family: 'barlow', cursive;
+}
+.newsletter-img img{
+    width: 400px;
+     display: flex;
+     justify-content: center;
+    
+}
+
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+#contact button{
+    background: #f1c111;
+    padding: 10px;
+    font-size: 15px;
+    height: 40px;
+    color: white;
+    width: 150px;
+    border: none;
+    outline: none;
+    margin: 20px;
+    border-radius: 15px;
+}
+#contact p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'barlow', cursive;
+}
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    
+}
+.socialMedia a{
+    color: #06798d;;
+    margin-left: 20px;
+    
+}
+.fa-twitter,
+.fa-envelope,
+.fa-instagram{
+    font-size:25px;
+    margin-top: 50px;
+}
+
+  .contact-form .form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: #0fc4e4;
+    border: 0;
+    color: white;
+    padding: 20px;
+    width: 350px;
+    margin: 16px 0;
+    outline: none;
+  }
+  .contact-form .form-control::placeholder{
+      color: white;
+  }
+
+ 
+
+/*END OF CONTACT*/
+
+@media screen and (min-width:768px){
+  
+/*nav*/
+
+
+#logo h1{
+    font-size: 30px;
+    
+}
+
+.nav-links a {
+font-size: 20px;
+
+}
+/* end of nav*/
+
+/*header*/
+header{
+    height: 800px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-text{
+  width: 50%;
+  height: 50%;
+  left: 5%;
+     top: 20%;
+}
+
+.hero-text h1{
+    font-size: 35px;
+  line-height: 45px;
+ 
+}
+.hero-description{
+    font-size: 18px;
+    padding: 0px;
+    line-height: 29px;
+    margin-top: 30px;
+    font-family: 'poppins', sans-serif;
+
+}
+.hero .btn{
+display: flex;
+justify-content: inherit;
+width: 50%;
+  height: 50%;
+}
+.hero button{
+    font-size: 18px;
+    width: 180px;
+    height: 50px;  
+}
+/*END OF HEADER*/
+
+
+
+/*about*/
+#about{
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       
+    }
+    #about h2{
+     font-size: 25px;
+    }
+    
+   
+    .aboutText{
+       width: 50%;
+       height: 50%;
+       line-height: 28px;
+    }
+    
+    .tech{
+        padding: 20px;
+        list-style:square;
+        line-height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 600;
+       
+    }
+    .tech li{
+        margin-left: 30px;
+        color: #0c8195;;
+        font-size: 20px;
+    }
+
+    .porttech{
+        padding: 20px;
+        list-style:none!important;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+       
+    }
+    .porttech li{
+        color: #0c8195;;
+        font-size: 15px;
+    }
+
+    
+/*END OF ABOUT*/
+
+/*portfolio*/
+
+.portfolio1, .portfolio2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'poppins', sans-serif;
+    
+    
+}
+#One, #two, #three, #four{
+
+height: 50%;
+ margin: 20px;
+ justify-content: space-around;
+
+}
+.porttech{
+    padding: 20px;
+    list-style:none;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+   
+}
+.porttech li{
+    color: #0c8195;;
+    font-size: 15px;
+}
+
+
+/*END OF PORTFOLIO*/
+
+/*contact*/
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .newsletter-img img{
+    width: 500px;
+     display: flex;
+     justify-content: center;
+    
+}
+
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+  #contact h1{
+      position: relative;
+       text-align: center;
+      font-weight: 200!important;
+      font-family: 'barlow', cursive;
+  }
+  #contact img{
+      width: 500px;
+       display: flex;
+       justify-content: center;
+      
+  }
+  #contact button{
+      width: 180px;
+  }
+  #contact p{
+      font-size: 20px;
+  }
+
+  .socialMedia a{
+      color: #0c8195;;
+      margin-left: 40px;
+      
+  }
+  .fa-twitter,
+  .fa-envelope,
+  .fa-instagram{
+      font-size:35px;
+      margin-top: 50px;
+  }
+
+
+}
+/*END OF CONTACT*/
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+  
+    /*nav*/
+    
+    
+    #logo h1{
+        font-size: 40px;
+        
+    }
+    
+    .nav-links a {
+    font-size: 25px;
+    
+    }
+    /* end of nav*/
+    
+    /*header*/
+    header{
+        height: 750px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .hero-text{
+      width: 50%;
+      height: 50%;
+    }
+    
+    .hero-text h1{
+        font-size: 39px;
+      line-height: 49px;
+     
+    }
+    .hero-description{
+        font-size: 19px;
+        padding: 0px;
+        line-height: 32px;
+        margin-top: 30px;
+        font-family: 'poppins', sans-serif;
+    
+    }
+    .hero .btn{
+    display: flex;
+    justify-content: inherit;
+    width: 50%;
+      height: 50%;
+    }
+    .hero button{
+        font-size: 18px;
+        width: 200px;
+        text-align: center;
+        height: 50px;
+
+    }
+    /*END OF HEADER*/
+    
+    
+    
+    /*about*/
+    #about{
+        padding: 20px;
+        font-family: 'poppins', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+           
+        }
+        #about h2{
+         font-size: 27px;
+        }
+        
+      
+        .aboutText{
+           width: 50%;
+           height: 50%;
+           line-height: 28px;
+        }
+       
+        .tech li{
+            margin-left: 50px;
+            color: #0c8195;;
+            font-size: 25px;
+        }
+    
+        
+    /*END OF ABOUT*/
+    
+    /*portfolio*/
+  
+    .portfolio1, .portfolio2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: 'poppins', sans-serif;
+        
+        
+    }
+    #One, #two, #three, #four{
+    
+    height: 450px;
+    max-width: 700px;
+     margin: 20px;
+     justify-content: space-around;
+    
+    }
+    .porttech{
+        padding: 20px;
+        list-style:none;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+       
+    }
+    .porttech li{
+        color: #0c8195;;
+        font-size: 15px;
+    }
+    
+    
+    /*END OF PORTFOLIO*/
+    
+    /*contact*/
+    
+    footer{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+      }
+
+      .wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        
+        .row, .newsletter-img{
+            height: 50%;
+            width: 50%;
+        }
+
+      #contact h1{
+          position: relative;
+           text-align: center;
+          font-weight: 200!important;
+          font-family: 'barlow', cursive;
+      }
+      #contact img{
+          width: 600px;
+           display: flex;
+           justify-content: center;
+          
+      }
+      #contact button{
+          width: 200px;
+      }
+      #contact p{
+          font-size: 20px;
+      }
+    
+      .socialMedia a{
+          color: #0c8195;;
+          margin-left: 40px;
+          
+      }
+      .fa-twitter,
+      .fa-envelope,
+      .fa-instagram{
+          font-size:35px;
+          margin-top: 50px;
+      }
+    
+    
+    }
+    /*END OF CONTACT*/
+
+
+
+
+
+
+
+
+
+
+
